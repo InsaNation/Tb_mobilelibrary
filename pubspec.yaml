@@ -1,0 +1,47 @@
+name: perpus1
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+#-----------------packages-------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #utinity packges
+
+
+  #state management
+  flutter_svg: ^2.0.10+1
+  get: ^4.6.5
+  google_fonts: ^6.1.0
+  http: ^1.2.1
+
+  #product specific
+
+
+  #-----------------./ packages end-------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  #-----------------local assets-------------#
+  assets:
+    - assets/icons/
+    - assets/images/on-boarding_images/
+    - assets/images/1.png
+    - assets/images/2.jpg
+    - assets/images/3.jpg
+    - assets/images/4.jpg
+    - assets/images/5.jpg
